@@ -86,3 +86,49 @@ h1{
     margin: 0 auto;
     text-align: center;
 }
+
+
+.contenedor__menu__desayunos,
+.contenedor__menu__comidas,
+.contenedor__menu__postres {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    color: var(--blanco);
+    height: 400px;
+    margin-bottom: 1rem;
+}
+
+.contenedor__menu__desayunos {
+    background-image: url('../img/img_desayuno.png');
+}
+
+.contenedor__menu__comidas {
+    background-image: url('../img/img_comida.png');
+}
+
+.contenedor__menu__postres {
+    background-image: url('../img/img_postre.png');
+}
+
+@media (min-width: 768px) {
+    .contenedor__menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+}
+
+.contenedor__menu__texto{
+    font-family: var(--fuentePrincipal);
+    color: var(--blanco);
+    font-size: 2.2rem;
+}
+
+.contenedor__menu__texto:hover{
+    font-weight: 900;
+    font-size: 2.6rem;
+}
+
