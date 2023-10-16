@@ -1,8 +1,9 @@
 :root{
     --primario: #014c40;
+    --rojo: #D12626;
     --blanco: #FFF;
     --negro: #000;
-    --fuentePrincipal: 'Inter', sans-serif;
+    --fuentePrincipal: 'Montserrat', sans-serif;
 }
 
 html{
@@ -29,7 +30,7 @@ a{
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .contenedor{
@@ -45,3 +46,26 @@ h1, h2, h3{
 
 /* Definir el tamaño de fuente de cada uno de los headers*/
 
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.navegacion{
+    background-color: var(--primario);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.navegacion__link{
+    font-family: var(--fuentePrincipal);
+    color: var(--blanco);
+}
+
+.navegacion__link:hover{
+    color: #D12626;
+}
