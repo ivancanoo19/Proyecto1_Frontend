@@ -55,11 +55,11 @@ h1{
     justify-content: center;
 }
 
-.footer{
+.subfooter{
     background-color: #d4d4d4;
 }
 
-.footer__texto{
+.subfooter__texto{
     text-align: center;
     font-size: 1.2rem;
 }
@@ -134,9 +134,77 @@ h1{
 
 .menu_social{
     width: auto;
-    margin-bottom: 0;
+    margin-bottom: 5rem;
     display: flex;
     justify-content: space-evenly;
     gap: 2rem;
     align-items: center;
+}
+
+.footer{
+    background-color: var(--primario);
+    display: flex;
+    justify-content: center;
+
+    max-width: 100%;
+    
+}
+
+.footer__contenedor{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer__texto{
+    color: #FFF;
+    font-family: var(--fuentePrincipal);
+}
+
+.footer__texto:hover{
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #FFF;
+}
+
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font-family: var(--fuentePrincipal);
+    color: var(--negro);
+}
+
+.input,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-family: var(--fuentePrincipal);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: var(--primario);
+    color: var(--blanco);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #D12626;
+}
+
+.contenedor__form{
+    margin-bottom: 3rem;
 }
