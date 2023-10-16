@@ -1,0 +1,47 @@
+:root{
+    --primario: #014c40;
+    --blanco: #FFF;
+    --negro: #000;
+    --fuentePrincipal: 'Inter', sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+p{
+    font-size: 1.8rem;
+    font-family: var(--fuentePrincipal);
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1, h2, h3{
+    text-align: center;
+    color: var(--negro);
+    font-family: var(--fuentePrincipal);
+}
+
+/* Definir el tamaño de fuente de cada uno de los headers*/
+
