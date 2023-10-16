@@ -3,7 +3,7 @@
     --rojo: #D12626;
     --blanco: #FFF;
     --negro: #000;
-    --fuentePrincipal: 'Montserrat', sans-serif;
+    --fuentePrincipal: 'Josefin Sans', sans-serif;
 }
 
 html{
@@ -21,7 +21,7 @@ body{
 }
 
 p{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: var(--fuentePrincipal);
 }
 
@@ -46,12 +46,23 @@ h1, h2, h3{
 
 /* Definir el tamaño de fuente de cada uno de los headers*/
 
+h1{
+    font-size: 3.5rem;
+}
+
 .header{
     display: flex;
     justify-content: center;
 }
 
+.footer{
+    background-color: #d4d4d4;
+}
 
+.footer__texto{
+    text-align: center;
+    font-size: 1.2rem;
+}
 
 .navegacion{
     background-color: var(--primario);
@@ -68,4 +79,10 @@ h1, h2, h3{
 
 .navegacion__link:hover{
     color: #D12626;
+}
+
+.contenedor__inicio__texto{
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
 }
