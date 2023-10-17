@@ -215,3 +215,16 @@ textarea {
 .contenedor__form{
     margin-bottom: 3rem;
 }
+
+
+
+.contenedor__inicio__texto {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s, transform 1s;
+}
+
+.contenedor__inicio__texto.mostrar {
+    opacity: 1;
+    transform: translateY(0);
+}
