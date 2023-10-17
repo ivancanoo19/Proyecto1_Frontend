@@ -38,7 +38,7 @@ img{
     margin: 0 auto;
 }
 
-h1, h2, h3{
+h1, h2{
     text-align: center;
     color: var(--negro);
     font-family: var(--fuentePrincipal);
@@ -48,6 +48,13 @@ h1, h2, h3{
 
 h1{
     font-size: 3.5rem;
+}
+
+h3{
+    color: var(--primario);
+    font-family: var(--fuentePrincipal);
+    text-align: initial;
+    margin: 0 auto;
 }
 
 .header{
@@ -147,7 +154,7 @@ h1{
     justify-content: center;
 
     max-width: 100%;
-    
+    margin-top: 4rem;
 }
 
 .footer__contenedor{
